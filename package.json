@@ -4,7 +4,8 @@
   "description": "server app for devices",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js"
   },
   "repository": {
     "type": "git",
@@ -13,7 +14,7 @@
   "author": "Alejandro Toledo",
   "license": "ISC",
   "dependencies": {
-    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "body-parser": "^1.19.0",
     "consign": "^0.1.6",
