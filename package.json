@@ -1,0 +1,22 @@
+{
+  "name": "serverapp_devicestask",
+  "version": "1.0.0",
+  "description": "server app for devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "deviceTask_serverApp"
+  },
+  "author": "Alejandro Toledo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "shortid": "^2.2.16"
+  }
+}
